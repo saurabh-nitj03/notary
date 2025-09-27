@@ -16,7 +16,7 @@ API_BASE_URL = "https://fetch-dev.onrender.com/registry"
 from config.settings import AGENTVERSE_API_KEY, GITHUB_PAT, KNOWLEDGE_GRAPH_GIST_ID
 
 # Import the schema for the incoming message
-from fetch_services.agents.schemas import FactCandidate
+from schemas import FactCandidate
 
 # --- Agent Definition ---
 NOTARY_SEED = "notary_agent_super_secret_seed_phrase_for_echonet"
